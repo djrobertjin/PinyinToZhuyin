@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Pinyin To Zhuyin Converter",
+  "description": "This extension serves as a mini-browser tool that converts Pinyin to Zhuyin (Bopomofo)",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Pinyin to Zhuyin"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
